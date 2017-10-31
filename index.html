@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Julie DEZISTOIRES</h1>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Grimoire</li>
+                <li>Bricologie</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="image"></div>
+        <section>
+            <h2>De qui parle-t-on?</h2>
+            <p>Dézistoires est une ancienne étudiante littéraire, tombée presque par hasard dans une formation en magie un peu spéciale:<br/>
+            Produire des miracles, sans baguette, ni sortilège, mais juste en écoutant les zistoires des autres. Et des zistoires, elle en a entendu! 
+            </p>
+            <p>
+            Lassée d'attendre sa baguette magique, commandée 15 ans auparavant sur le célèbre catalogue de la ReBoot (la VPC, ce n'est plus ce que c'était), elle a décidé de changer de vie.<br/>
+            Ceci est sa zistoire, celle d'une reconversion dans la sorcellerie 2.0, à l'aide d'un clavier magique et de nombreux grimoires (Les recueils de cours ACS, openclassroom,...)
+            </p>
+        </section>
+
+        <section>
+            <h3>En savoir plus?</h3>
+            <p>Pour toute question concernant ma formation en magicobricologie, merci de compléter le formulaire de contact ci-dessous :
+            <form method="post" action="sendmail.php" onsubmit="return verifForm(this)">
+                <p>
+                <label>Nom</label> : <input type="text" name="name" onblur="verifName(this)"/>
+                </p>
+                <p>
+                E-mail : <input type="text" name="mail" size="30" onblur="verifMail(this)"/>
+                <input type="submit" value="Valider"/>
+                </p>
+                <p class="titre">Message</p>
+                <textarea name="comments" rows="5" cols="40"></textarea>
+            </form>
+        </section>
+    </section>
+
+    <footer>
+
+    </footer>
+
+
+
+
+
+
+</body>
+</html>
